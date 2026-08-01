@@ -2326,3 +2326,14 @@ transform:translateY(0);
 }
 
 }
+/*==========================================================
+LEGAL PAGES
+==========================================================*/
+
+.legal-page{
+    padding-top: 140px;
+}
+
+.legal-page .support-card{
+    margin-top: 0;
+}
