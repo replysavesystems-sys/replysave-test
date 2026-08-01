@@ -403,3 +403,43 @@ console.log(
 );
 
 });
+/*==========================================================
+COOKIE BANNER
+==========================================================*/
+
+const cookieBanner =
+document.getElementById("cookie-banner");
+
+const acceptCookies =
+document.getElementById("cookie-accept");
+
+const declineCookies =
+document.getElementById("cookie-decline");
+
+if(localStorage.getItem("replysaveCookies")){
+
+cookieBanner.style.display="none";
+
+}
+
+acceptCookies.addEventListener("click",()=>{
+
+localStorage.setItem(
+"replysaveCookies",
+"accepted"
+);
+
+cookieBanner.style.display="none";
+
+});
+
+declineCookies.addEventListener("click",()=>{
+
+localStorage.setItem(
+"replysaveCookies",
+"declined"
+);
+
+cookieBanner.style.display="none";
+
+});
