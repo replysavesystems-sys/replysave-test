@@ -472,7 +472,7 @@ NAVIGATION BUTTONS
 
 .nav-buttons{
 
-display:none;
+display:flex;           
 
 gap:16px;
 
